@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>goog.ui.AutoComplete.Nominatim</title>
+  <script src="http://localhost:9810/compile?id=main"></script>
+  <link rel="stylesheet" href="autocomplete.css">
+</head>
+<body>
+  <h1>goog.ui.AutoComplete.Nominatim</h1>
+  <p>
+    Place name:<br>
+	<form id="form1" action="#" method="post">
+    <input type="search" placeholder="Find a place..." autofocus="autofocus" autocomplete="off" id="txtInput" style="width:500px"/>
+    </form>
+    <p>
+      This data is being pulled from the Nominatim server.
+    </p>
+    <div id="log">
+	</div>
+  </p>
+
+  <script>main();</script>
+</body>
+</html>
